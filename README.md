@@ -1,3 +1,11 @@
+# Use in Dockerfile
+
+```
+# ...
+COPY --from=mishamx/ep:latest /app/ep .
+# ...
+```
+
 # Envplate
 
 [![Build Status](https://travis-ci.org/kreuzwerker/envplate.svg)](https://travis-ci.org/kreuzwerker/envplate)
